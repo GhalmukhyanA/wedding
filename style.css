@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'A&S-Black-Swan';
+    src: url('pageFonts/A&S-Black-Swan/fonts/AS_Black_Swan.eot');
+    src: local('☺'), url('pageFonts/A&S-Black-Swan/fonts/AS_Black_Swan.woff') format('woff'),
+    url('pageFonts/A&S-Black-Swan/fonts/AS_Black_Swan.ttf') format('truetype'),
+    url('pageFonts/A&S-Black-Swan/fonts/AS_Black_Swan.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('pageFonts/MYRIADPROREGULAR/MYRIADPROREGULAR.eot');
+    src: local('MYRIADPROREGULAR'),
+    url('pageFonts/MYRIADPROREGULAR/MYRIADPROREGULAR.woff') format('woff'),
+    url('pageFonts/MYRIADPROREGULAR/MYRIADPROREGULAR.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TrebuchetMS';
+    src: url('pageFonts/TrebuchetMS/fonts/Trebuchet MS.eot');
+    src: local('☺'), url('pageFonts/TrebuchetMS/fonts/Trebuchet MS.woff') format('woff'),
+    url('pageFonts/TrebuchetMS/fonts/Trebuchet MS.ttf') format('truetype'),
+    url('pageFonts/TrebuchetMS/fonts/Trebuchet MS.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('pageFonts/Tahoma/fonts/Tahoma.eot');
+    src: local('☺'), url('pageFonts/Tahoma/fonts/Tahoma.woff') format('woff'),
+    url('pageFonts/Tahoma/fonts/Tahoma.ttf') format('truetype'),
+    url('pageFonts/Tahoma/fonts/Tahoma.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#mainDiv, #menu {
+    margin: 0 auto;
+}
+
+#footer, #range_and_pair, .textContent1, #imgWelcome, .textContent2,
+#familyImg, #weddingImg {
+    float: left
+}
+
+#bottomMenu, .textContent1 h3, #pBottom {
+    text-align: center;
+}
+
+.textContent1, #menu li a {
+    padding: 5px;
+}
+
+#MarySteven, #weddingPage {
+    position: absolute;
+}
+
+#ringImg, .range_and_pair, #range_and_pair, #pair, .header, #footer {
+    width: 100%;
+}
+
+.textContent1 p:nth-child(1), #bottomMenu li a, #pBottom {
+    font-family: "TrebuchetMS";
+}
+
+.textContent1 h3, .textContent2 h3, #menu li a, #weddingPage {
+    font-family: "MyriadPro-Regular";
+}
+
+.textContent2 h3, #icona li a{
+    color: #76a6ca;
+}
+
+#menu li a:hover, #bottomMenu li a:hover {
+    color: #d13814;
+}
+
+#bottomMenu li a, #menu li a {
+    text-decoration: none;
+}
+
+.textContent1, .textContent2, #footer {
+    overflow: hidden;
+}
+
+#MarySteven {
+    font-family: "A&S-Black-Swan";
+    font-size: 48px;
+    color: #FFF;
+    font-weight: 800;
+    top: 180px;
+    left: 90px;
+}
+
+#weddingPage {
+    font-size: 16px;
+    top: 235px;
+    left: 170px;
+}
+
+#mainDiv {
+    box-sizing: border-box;
+    width: 785px;
+    position: relative;
+}
+
+.header {
+    height: 48px;
+    background: #c4bfa1;
+}
+
+#menu {
+    width: 80%;
+    padding-top: 10px;
+}
+
+#menu li, #bottomMenu li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#menu li a, #weddingPage {
+    color: #111111;
+}
+
+.range_and_pair {
+    height: 300px;
+    margin-top: 5px;
+}
+
+.textContent1 {
+    width: 48%;
+    height: 350px;
+}
+
+.textContent1 p:nth-child(1) {
+    font-size: 15px;
+}
+
+.textContent1 h3, .textContent2 h3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#imgWelcome {
+    padding-right: 10px;
+}
+
+.tahoma, .tahoma u {
+    color: #848484;
+}
+
+.tahoma, .tahoma u, #icona li  a{
+    font-family: "Tahoma";
+    font-size: 14px;
+}
+
+#icona li {
+    list-style-image: url('images/icon1.png');
+    line-height: 20px;
+}
+
+.textContent2 {
+    width: 50%;
+    height: 370px;
+}
+
+#familyImg, #weddingImg {
+    padding-right: 5px;
+}
+
+#footer {
+    height: 70px;
+    background: #d8d8d8;
+}
+
+.liEnd {
+    border-right-style: solid;
+}
+
+#bottomMenu li a {
+    padding: 10px;
+}
+
+#pBottom, #bottomMenu li a, .textContent1 p:nth-child(1) {
+    color: #433e33;
+}
